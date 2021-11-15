@@ -713,12 +713,10 @@
             height: 63px;
             border-radius: 50px;
             border: none;
-        }
-        .rouge button a{
-            text-decoration: none;
             color: #ec0033;
             font-weight: 800;
             font-size: 24px;
+            background-color: white;
         }
         .mise{
             margin-top: 60px;
@@ -767,13 +765,9 @@
             border-radius: 50px;
             background-color: #ec0033;
             border: none;
-        }
-        .mise a{
-            text-decoration: none;
             color: white;
             font-weight: 800;
             font-size: 24px;
-        
         }
         .partenaires{
             margin-top: 60px;
@@ -1111,6 +1105,7 @@
             color: #ec0033;
             font-weight: 800;
             font-size: 24px;
+            background-color: white;
         }
         .mise{
             margin-top: 60px;
