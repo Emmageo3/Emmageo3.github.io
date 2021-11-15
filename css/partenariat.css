@@ -33,6 +33,7 @@
             color: black;
             padding: 40px;
             font-size: 24px;
+            font-weight: 900;
         }
         #onglet{
             border-bottom: 10px solid #ec0033;
@@ -132,7 +133,7 @@
         .logos h2{
             font-weight: 900;
             color: #ec0033;
-            font-size: 30px;
+            font-size: 48px;
         }
         .logos .logo{
             margin-top: 72.23px;
@@ -268,17 +269,14 @@
         .soutien .textes h2{
             font-weight: 900;
             font-size: 48px;
-            color: #ec0033;
+            color: white;
             text-align: left;
         }
         .soutien .textes hr{
-            margin-top: 20px;
-            width: 135px;
-            border: 4px solid;
+            display: none;
         }
         .soutien .textes p{
             margin-top: 15px;
-            font-weight: 700;
             font-size: 27px;
             line-height: 50px;
         }
@@ -463,18 +461,28 @@
             text-align: left;
             margin-left: 50px;
         }
+        .footer .newsletter .search form{
+            display: flex;
+        }
         .footer .newsletter .search form input{
             padding: 15px;
             width: 300px;
-            border-radius: 12px;
             font-size: 15px;
+            display: flex;
         }
-        .footer .newsletter .search form button{
+        .footer .newsletter .search form #email{
+            border-bottom-left-radius: 12px;
+            border-top-left-radius: 12px;
+        }
+        .footer .newsletter .search form #joindre{
             padding: 15px;
-            border-radius: 12px;
             background-color: #ec0033;
             color: white;
             border: none;
+            width: 100px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            
         }
         .end{
             background-color: #ec0033;
