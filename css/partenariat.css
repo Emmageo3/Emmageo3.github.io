@@ -463,6 +463,7 @@
         }
         .footer .newsletter .search form{
             display: flex;
+            margin-top: 50px;
         }
         .footer .newsletter .search form input{
             padding: 15px;
@@ -856,13 +857,16 @@
             text-align: left;
             text-align: center;
         }
+        .footer .newsletter .search form{
+            margin-top: 40px;
+        }
         .footer .newsletter .search form input{
             padding: 15px;
             width: 300px;
             border-radius: 12px;
             font-size: 15px;
         }
-        .footer .newsletter .search form button{
+        .footer .newsletter .search form #joindre{
             padding: 15px;
             border-radius: 12px;
             background-color: #ec0033;
@@ -870,6 +874,7 @@
             border: none;
             margin-top: 10px;
             margin-bottom: 20px;
+            width: 100px;
         }
         .end{
             background-color: #ec0033;
@@ -1245,13 +1250,16 @@
             text-align: left;
             text-align: center;
         }
+        .footer .newsletter .search form{
+            margin-top: 40px;
+        }
         .footer .newsletter .search form input{
             padding: 15px;
             width: 300px;
             border-radius: 12px;
             font-size: 15px;
         }
-        .footer .newsletter .search form button{
+        .footer .newsletter .search form #joindre{
             padding: 15px;
             border-radius: 12px;
             background-color: #ec0033;
@@ -1259,6 +1267,7 @@
             border: none;
             margin-top: 10px;
             margin-bottom: 20px;
+            width: 100px;
         }
         .end{
             background-color: #ec0033;
