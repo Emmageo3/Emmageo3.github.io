@@ -8,7 +8,7 @@
     @media only screen and (min-width: 1025px) {
         
         .top-navbar{
-            margin-left: 32.9px;
+            margin-left: 3.2%;
             display: flex;
             height: 114px;
             align-items: center;
@@ -31,13 +31,13 @@
         .top-navbar .items a{
             text-decoration: none;
             color: black;
-            padding: 40px;
+            padding: 2%;
             font-size: 24px;
             font-weight: 900;
         }
         #onglet{
             border-bottom: 10px solid #ec0033;
-            padding: 31px;
+            padding: 3%;
             color: #ec0033;
             font-weight: 900;
         }
@@ -859,6 +859,7 @@
         }
         .footer .newsletter .search form{
             margin-top: 40px;
+            display: block;
         }
         .footer .newsletter .search form input{
             padding: 15px;
