@@ -419,7 +419,7 @@
         .carte-container {
             display: flex;
             justify-content: space-around;
-            padding: 10px;
+            
             margin-top: 50px;
         }
     
@@ -429,8 +429,8 @@
             text-align: justify;
             box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
             border-radius: 10px;
-
-              
+            margin-left: 3%;
+            margin-right: 3%;   
         }
     
         .carte img {
