@@ -84,6 +84,7 @@
             position: relative;
             display: inline-block;
             font-size: 24px;
+            font-family: nunito Sans;
           }
           .dropdown img{
               width: 12px;
@@ -308,6 +309,7 @@
             display: flex;
             justify-content: space-between;
             padding: 20px ;
+            height: 600px;
         }
     
         .soutien .videos {
@@ -315,7 +317,8 @@
             width: 50%;
             margin-left: 55px;
             margin-right: 55px;
-            margin-top: 50px;
+            margin-top: 2%;
+            height: 500px;
         }
         .soutien .videos video{
             width: 100%;
@@ -326,7 +329,7 @@
             color: white;
             flex: 1;
             width: 50%;
-            margin-top: 50px;
+            margin-top: 3%;
         }
         .soutien .textes h2{
             font-weight: 900;
@@ -344,7 +347,7 @@
         }
     
         .rouge{
-            margin-top: 50px;
+            margin-top: 60px;
             background-color: #ec0033;
             width: 80%;
             margin: auto;
@@ -669,6 +672,9 @@
          .navbar-brand{
              width: 50%;
          }
+         .dropdown {
+            display: none;
+          }
          .banniere{
             background-image: url('https://cdn.discordapp.com/attachments/894518607260839948/908665113823830066/formationsproBestResolution.jpg');
             background-size: 100%;
@@ -1067,6 +1073,12 @@
               display: none;
           }
           .contact{
+              display: none;
+          }
+          .dropdown {
+            display: none;
+          }
+          .nav-item img{
               display: none;
           }
           .banniere {
