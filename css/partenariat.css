@@ -79,9 +79,39 @@
             font-weight: 900;
             color: black;
         }
-        select.form-select.form-select-lg.mb-3.select.my-lg-5.my-md-0.my-sm-0 {
-            border: none;
-        }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+            font-size: 24px;
+          }
+          .dropdown img{
+              width: 12px;
+              height: 12px;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-weight: 300;
+          }
+          
+          .dropdown-content a:hover {background-color: #f1f1f1}
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          
         button.btn.btn-danger.btn-red {
             border-radius: 15px;
         }
@@ -134,16 +164,19 @@
         .reseau-content .reseau-image{
     
         } */
-    
+        .reseau-content .reseau-image{
+            width: 50%;
+        }
         .reseau-content .reseau-image video{
-            width: 770px;
+            width: 95%;
             height: 532.77px;
         }
     
         .reseau-content .reseau-texte{
-            margin-left: 39px;
-            margin-right: 55px;
+            width: 50%;
+            height: 532.77px;
             line-height: 41.14px;
+            margin-right: 20px;
         }
         .reseau-content .reseau-texte h2{
             font-weight: 800;
