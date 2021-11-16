@@ -150,10 +150,11 @@
             font-weight: 900;
             line-height: 65.47px;
         }
-        .reseau .reseau-titre hr{
+        .reseau .reseau-titre .bg-dark{
             width: 125px;
             margin-top: 19px;
-            border: solid 4px black;
+            border: solid 4px;
+            
         }
     
     
@@ -167,10 +168,11 @@
         } */
         .reseau-content .reseau-image{
             width: 50%;
+            height: 100%;
         }
         .reseau-content .reseau-image video{
             width: 95%;
-            height: 532.77px;
+            height: 100%;
         }
     
         .reseau-content .reseau-texte{
@@ -190,7 +192,7 @@
     
     
         .logos{
-            margin-top: 72.23px;
+            margin-top: 50px;
             text-align: center;
         }
         .logos h2{
@@ -398,11 +400,12 @@
             text-align: left;
             margin-left: 55px;
         }
-        .mise  hr{
+        .mise  .bg-dark{
             width: 125px;
             margin-top: 19px;
-            border: solid 4px black;
+            border: solid 4px;
             margin-left: 55px;
+            
         }
         .mise .mise-texte {
             margin-top: 40px;
@@ -465,10 +468,10 @@
             margin-left: 55px;
             text-align: left;
         }
-        .partenaires hr{
+        .partenaires .bg-dark{
             width: 125px;
             margin-top: 19px;
-            border: solid 4px black;
+            border: solid 4px;
             margin-left: 55px;
         }
         .partenaires img{
@@ -694,7 +697,7 @@
             line-height: 65.47px;
             text-align: center;
         }
-        .reseau .reseau-titre hr{
+        .reseau .reseau-titre .bg-dark{
             margin-top: 19px;
             border: solid 2px black;
             text-align: center;
@@ -735,7 +738,7 @@
         }
         .logos h2{
             font-weight: 900;
-            color: white;
+            color: #ec0033;
             font-size: 20px;
         }
         .logos .logo{
@@ -759,8 +762,10 @@
             display: none;
         }
         .soutien{
-            margin-top: 60px; 
+            margin-top: 30px; 
             display: block;
+            margin-left: 5%;
+            margin-right: 5%;
         }
         
         .soutien .videos {
@@ -781,7 +786,7 @@
             text-align: center;
             margin-top: 30px;
         }
-        .soutien .textes hr{
+        .soutien .textes .bg-dark{
             margin-top: 19px;
             border: solid 2px black;
             text-align: center;
@@ -850,7 +855,7 @@
             text-align: center;
             margin-top: 20px;
         }
-        .mise  hr{
+        .mise  .bg-dark{
             margin-top: 19px;
             border: solid 2px black;
             text-align: center;
