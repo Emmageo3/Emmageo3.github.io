@@ -79,6 +79,9 @@
             font-weight: 900;
             color: black;
         }
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
           
           .dropdown {
             position: relative;
