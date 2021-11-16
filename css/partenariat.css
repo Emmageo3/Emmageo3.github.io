@@ -88,6 +88,7 @@
             display: inline-block;
             font-size: 24px;
             font-family: nunito Sans;
+            font-weight: 800;
           }
           .dropdown img{
               width: 12px;
@@ -115,6 +116,7 @@
           .dropdown:hover .dropdown-content {
             display: block;
           }
+
           
         button.btn.btn-danger.btn-red {
             border-radius: 15px;
