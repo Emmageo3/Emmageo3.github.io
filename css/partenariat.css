@@ -880,6 +880,8 @@
             text-align: center;
             margin-left: 5%;
             margin-right: 5%; 
+            box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+
         }
         
         .carte img {
@@ -1282,7 +1284,7 @@
             line-height: 20px;
         }
         .carte-container {
-            display: flex;
+            display: block;
             margin-top: 30px;
         }
         
@@ -1292,9 +1294,12 @@
             text-align: center;
             
         }
-        
+        .carte .carte-texte{
+            width: 50%;
+            margin-left: 25%;
+        }
         .carte img {
-            width :100%;
+            width :50%;
         }
         .mise button{
             display : block;
