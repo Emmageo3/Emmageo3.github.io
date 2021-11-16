@@ -885,6 +885,10 @@
         .carte img {
             width :100%;
         }
+        .carte .carte-texte h3{
+            margin-top: 20px;
+            font-weight: 800;
+        }
         .mise button{
             display : block;
             margin: auto;
