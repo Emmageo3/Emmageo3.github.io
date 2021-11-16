@@ -1343,11 +1343,16 @@
             margin-top: 20px;
             
         }
+        .carte .carte-texte h3{
+            margin-top: 30px;
+        }
         .carte .carte-texte{
             width: 100%;
+
         }
         .carte img {
             width :100%;
+            height: 50%;
         }
         .mise button{
             display : block;
