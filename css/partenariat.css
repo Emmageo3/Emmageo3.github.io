@@ -82,6 +82,9 @@
         .navbar-light .navbar-nav .nav-link {
             color: black;
         }
+        .navbar-expand-lg .navbar-collapse {
+            margin-left: 150px;
+        }
           
           .dropdown {
             position: relative;
