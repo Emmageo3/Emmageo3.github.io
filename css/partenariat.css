@@ -5,7 +5,7 @@
     font-family: nunito Sans;
     }
     
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
         
         /*.top-navbar{
             margin-left: 3.2%;
@@ -379,7 +379,8 @@
         .rouge .block .barre-verticale{
             border-left: 2px solid white;
             height: 200px;
-            margin-top: 80px;
+            margin-top: 5%;
+            margin-bottom: 5%;
         }
         .rouge button{
             display: block;
@@ -443,6 +444,7 @@
         .carte h3{
             margin-top: 30px;
             text-align: center;
+            font-weight: 800;
         }
         .carte-texte{
             margin-left: 5%;
@@ -1046,7 +1048,7 @@
     }  
     
     
-    @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    @media only screen and (min-width: 600px) and (max-width: 1025px) {
         .top-navbar{
             display: flex;
             width: 100%;
