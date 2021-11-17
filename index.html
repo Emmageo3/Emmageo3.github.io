@@ -13,92 +13,55 @@
 </head>
 <body>
 
-
-<!--
-   <header>
-        <nav class="top-navbar">
-            <div class="logo">
-                <img src="img/logo.png" alt="">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-lg">
+            <div class="container-fluid">
+            <img src="img/logo.png" class="navbar-brand logo" alt="image">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex align-items-center justify-content-around w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fabrique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="active" href="#">Partenariats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Espaces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entités</a>
+                </li>
+                <li class="nav-item "><img src="img/search.png" alt="image search"></li>
+                <li class="nav-item dropdown">
+                    Fr <img src="img/arrow.png" alt="">
+                    <div class="dropdown-content">
+                        <a href="#">Fr</a>
+                        <a href="#">En</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-danger btn-red"> Contact</button>
+                </li>
+                </ul>
             </div>
-            <div class="items dropdown">
-                <button onclick="myFunction()" class="dropbtn"><img src="img/menu.png" alt=""></button>
-                <div class="dropdown-content" id="myDropdown">
-                    <a href="">Accueil</a>
-                    <a href="">Fabrique</a>
-                    <a href="">Formations</a>
-                    <a id="onglet" href="#">Partenariats</a>
-                    <a href="">Espaces</a>
-                    <a href="">Entités</a>
-                </div>
             </div>
-                <div class="recherche"><img src="img/search.png" alt=""></div>
-                <div class="langue">
-                    <form>
-                        <select name="langue" id="langue">
-                            <option value="">Fr</option>
-                            <option value="">En</option>
-                        </select>
-                    </form>
-                </div>
-                <div class="contact">
-                    <a href="#call">Contact</a>
-                </div>
         </nav>
-        
-        
+    </header>
 
-   </header>
--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-lg">
-        <div class="container-fluid">
-          <img src="img/logo.png" class="navbar-brand logo" alt="image">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav d-flex align-items-center justify-content-around w-100">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fabrique</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Formation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="active" href="#">Partenariats</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Espaces</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Entités</a>
-              </li>
-              <li class="nav-item "><img src="img/search.png" alt="image search"></li>
-              <li class="nav-item dropdown">
-                Fr <img src="img/arrow.png" alt="">
-                <div class="dropdown-content">
-                    <a href="#">Fr</a>
-                    <a href="#">En</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-danger btn-red"> Contact</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-</header>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-<section class="banniere">
-    <h2>Partenariat</h2>
-</section>
+    <section class="banniere">
+        <h2>Partenariat</h2>
+    </section>
 
     <main>
 
@@ -152,6 +115,7 @@
             </div>
 
             <button>Rejoindre l'aventure</button>
+
         </section>
 
         <section class="soutien-rouge">
@@ -196,6 +160,7 @@
                     <button>Soutenir</button>
                 </div>
             </div>
+            
         </section>
 
 
@@ -247,65 +212,70 @@
 
     
 
-    <div class="footer" id="call">
+   <footer>
+        <section>
+            <div class="footer" id="call">
 
-        <div class="footer-socials">
-            <div class="logo">
-                <img src="img/logofooter.png" alt=""><br>
-                SENEGAL
+                <div class="footer-socials">
+                    <div class="logo">
+                        <img src="img/logofooter.png" alt=""><br>
+                        SENEGAL
+                    </div>
+                    <div class="socials">
+                        <img src="img/twitter.png" alt="">
+                        <img src="img/facebook.png" alt="">
+                        <img src="img/instagram.png" alt="">
+                        <img src="img/youtube.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="plus">
+                    <h1>Voir plus</h1>
+                    <ul>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Notre histoire</a></li>
+                        <li><a href="#">Condition d'utilisation</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+    
+                <div class="coordonnes">
+                    <h1>Coordonnées</h1>
+                    <div class="adresse">
+                        Cité Keur gorgui <br> Dakar, Sicap liberté 2 <br> Sénégal
+                    </div>
+                    <div class="mail">
+                        <strong>Simplon@gmail.com</strong> <br>
+                        <strong>help@simplon.com</strong> <br>
+                        +221 77 777 77 77 <br>
+                        +221 77 777 77 77 <br>
+                    </div>
+                </div>
+    
+                <div class="newsletter">
+                    <p>Souscrivez a notre newsletter pour ne manquer a aucune de nos actualités</p>
+                    <div class="search">
+                        <form>
+                            <input type="email" placeholder="    Email" id="email"><input type="submit" id="joindre" value="Joindre">
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="socials">
-                <img src="img/twitter.png" alt="">
-                <img src="img/facebook.png" alt="">
-                <img src="img/instagram.png" alt="">
-                <img src="img/youtube.png" alt="">
+        </section>
+
+        <section>
+            <div class="end">
+                <div class="droits">
+                    © 2021 Simplon. All rights reserved.
+                </div>
+                <div class="coeur">
+                    Made with <img src="img/heart.png" alt=""> by S i m p l o n P 4
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="plus">
-            <h1>Voir plus</h1>
-            <ul>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Notre histoire</a></li>
-                <li><a href="#">Condition d'utilisation</a></li>
-                <li><a href="#">Politique de confidentialité</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
-
-        <div class="coordonnes">
-            <h1>Coordonnées</h1>
-            <div class="adresse">
-                Cité Keur gorgui <br> Dakar, Sicap liberté 2 <br> Sénégal
-            </div>
-            <div class="mail">
-                <strong>Simplon@gmail.com</strong> <br>
-                <strong>help@simplon.com</strong> <br>
-                +221 77 777 77 77 <br>
-                +221 77 777 77 77 <br>
-            </div>
-        </div>
-
-        <div class="newsletter">
-            <p>Souscrivez a notre newsletter pour ne manquer a aucune de nos actualités</p>
-            <div class="search">
-                <form>
-                    <input type="email" placeholder="    Email" id="email"><input type="submit" id="joindre" value="Joindre">
-                </form>
-            </div>
-        </div>
-
-       
-    </div>
-
-    <div class="end">
-        <div class="droits">
-            © 2021 Simplon. All rights reserved.
-        </div>
-        <div class="coeur">
-            Made with <img src="img/heart.png" alt=""> by S i m p l o n P 4
-        </div>
-    </div>
+   </footer>
 
 
 
