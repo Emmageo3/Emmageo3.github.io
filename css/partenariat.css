@@ -83,7 +83,7 @@
             color: black;
         }
         .navbar-expand-lg .navbar-collapse {
-            margin-left: 150px;
+            margin-left: 10%;
         }
           
           .dropdown {
@@ -195,7 +195,7 @@
             color: #ec0033;
         }
         .reseau-content .reseau-texte p{
-            margin-top: 50px;
+            margin-top: 5%;
         }
     
     
@@ -380,9 +380,11 @@
             margin-top: 30px;
             line-height: 41.14px;
         }
+        .rouge .block h2{
+            font-weight: 900;
+        }
         .rouge .block .barre-verticale{
             border-left: 2px solid white;
-            height: 200px;
             margin-top: 5%;
             margin-bottom: 5%;
         }
@@ -586,7 +588,7 @@
             margin-left: 2%;
         }
         .end .coeur{
-            margin-left: 25%;
+            margin-left: 15%;
         }
         .end .coeur img{
             height: 15px;
