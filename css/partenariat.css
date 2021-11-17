@@ -361,6 +361,7 @@
             padding: 30px;
             opacity: 95%;
             color: white;
+            border-radius: 6px;
         }
         .rouge .block{
             margin-top: 80px; 
